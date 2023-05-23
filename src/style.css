@@ -1,7 +1,47 @@
-body {
-    background-color: bisque;
+.main {
+  display: flex;
+  width: 52%;
+  justify-content: space-around;
 }
 
-.hello {
-    color: red;
-  }
+h1 {
+  margin-left: 15px;
+}
+
+.score-section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 116%;
+  margin-left: -7px;
+}
+
+#inputsScore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 13px;
+}
+
+.score-container {
+  border: 1px solid black;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2px;
+}
+
+li {
+  padding: 5px;
+}
+
+li:nth-child(even) {
+  background-color: darkgray;
+}
+
+input {
+  height: 20px;
+}
