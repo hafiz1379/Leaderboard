@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-</head>
-<body>
-    <h1>Hello webpack!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeaderBoard</title>
+  </head>
+  <body>
+    <h1>LeaderBoard</h1>
+    <div class="main">
+      <section class="score-section">
+        <div>
+          <h2 class="recentScores">Recent scores</h2>
+          <input type="button" value="Refresh" class="refresh" />
+        </div>
+        <ul class="score-container">
+          <li>Name: 100</li>
+          <li>Name: 20</li>
+          <li>Name: 50</li>
+          <li>Name: 78</li>
+          <li>Name: 125</li>
+          <li>Name: 77</li>
+          <li>Name: 42</li>
+        </ul>
+      </section>
+      <section class="add-section">
+        <h2>Add your score</h2>
+        <form id="inputsScore" method="post" action="/">
+          <input
+            type="text"
+            class="inputName"
+            placeholder="Your name"
+            pattern="[A-Za-z]+"
+            title="Please enter only alphabetical characters"
+            onkeypress="return /[a-zA-Z]/.test(event.key);"
+          />
+          <input type="number" class="inputScore" placeholder="Your score" />
+          <input
+            type="button"
+            value="Submit"
+            class="submitBtn"
+            id="submitBtn"
+          />
+        </form>
+      </section>
+    </div>
+  </body>
 </html>
