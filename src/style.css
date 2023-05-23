@@ -1,4 +1,8 @@
+body {
+    background-color: bisque;
+}
 
+<<<<<<< HEAD
 .main {
   display: flex;
   width: 52%;
@@ -46,3 +50,8 @@ li:nth-child(even) {
 input {
   height: 20px;
 }
+=======
+.hello {
+    color: red;
+  }
+>>>>>>> Develop
