@@ -1,7 +1,7 @@
 import './style.css';
 import { refresh, addYourData } from './modules/scores.js';
 
-var $ = document;
+const $ = document;
 
 const refreshBtn = $.querySelector('.refresh');
 refreshBtn.addEventListener('click', () => {
