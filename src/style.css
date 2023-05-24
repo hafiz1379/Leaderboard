@@ -16,7 +16,7 @@ h1 {
   margin-left: -7px;
 }
 
-#inputsScore {
+#score-inputs {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
