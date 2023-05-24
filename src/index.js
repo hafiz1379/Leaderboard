@@ -1,12 +1,14 @@
 import './style.css';
-import { refresh, addYourData } from './modules/tasks.js';
+import { refresh, addYourData } from './modules/scores.js';
 
-const refreshBtn = document.querySelector('.refresh');
+var $ = document;
+
+const refreshBtn = $.querySelector('.refresh');
 refreshBtn.addEventListener('click', () => {
   refresh();
 });
 
-const submitBtn = document.querySelector('.submitBtn');
+const submitBtn = $.querySelector('.submitBtn');
 submitBtn.addEventListener('click', () => {
   addYourData();
 });
