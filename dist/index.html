@@ -10,14 +10,14 @@
     <div class="main">
       <section class="score-section">
         <div>
-          <h2 class="recentScores">Recent scores</h2>
+          <h2 class="recent-scores">Recent scores</h2>
           <input type="button" value="Refresh" class="refresh" />
         </div>
         <ul class="score-container"></ul>
       </section>
-      <section class="add-section">
+      <section class="inputs">
         <h2>Add your score</h2>
-        <form id="inputsScore" method="post" action="/">
+        <form id="score-inputs" method="post" action="/">
           <input
             type="text"
             class="inputName"
@@ -26,7 +26,7 @@
             title="Please enter only alphabetical characters"
             onkeypress="return /[a-zA-Z]/.test(event.key);"
           />
-          <input type="number" class="inputScore" placeholder="Your score" />
+          <input type="number" class="score-input" placeholder="Your score" />
           <input
             type="button"
             value="Submit"
