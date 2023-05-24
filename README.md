@@ -20,7 +20,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -68,8 +67,6 @@
 - **Grid and Flexbox**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
