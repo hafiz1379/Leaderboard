@@ -5,13 +5,14 @@ font-family: Poppins;
 
 .main {
   display: flex;
-  width: 52%;
+  width: 90%;
   justify-content: space-around;
 }
 
 h1 {
   font-size: 4rem;
   margin-left: 15px;
+  margin-top: 0;
   background: #CF2908;
   background: repeating-linear-gradient(to right, #CF2908 0%, #5DCF06 60%);
   -webkit-background-clip: text;
@@ -19,7 +20,7 @@ h1 {
 }
 
 .recent-scores {
-  font-size: 2rem;
+  font-size: 2.5rem;
   background: #0A010A;
   background: linear-gradient(to right, #0A010A 0%, #CF0000 60%);
   -webkit-background-clip: text;
@@ -27,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   background: #0A010A;
   background: linear-gradient(to right, #0A010A 0%, #CF0000 60%);
   -webkit-background-clip: text;
@@ -36,11 +37,12 @@ h2 {
 
 .submitBtn, .refresh {
   height: 1.7rem;
-  width: 4rem;
+  width: 5rem;
   background-color: cadetblue;
   border: 0;
   border-radius: 2px;
   color: #fff;
+  font-size: 1rem;
 }
 
 .submitBtn:hover {
@@ -66,14 +68,16 @@ h2 {
 }
 
 .score-container {
-  border: 1px solid black;
-  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 109%;
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin-top: 2px;
+  font-size: 1rem;
 }
 
 li {
