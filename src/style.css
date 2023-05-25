@@ -1,6 +1,9 @@
+* {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
 body {
-background-color: lightblue;
-font-family: Poppins;
+  background-color: lightblue;
 }
 
 .main {
@@ -14,29 +17,30 @@ h1 {
   font-size: 4rem;
   margin-left: 15px;
   margin-top: 0;
-  background: #CF2908;
-  background: repeating-linear-gradient(to right, #CF2908 0%, #5DCF06 60%);
+  background: #cf2908;
+  background: repeating-linear-gradient(to right, #cf2908 0%, #5dcf06 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .recent-scores {
   font-size: 2.5rem;
-  background: #0A010A;
-  background: linear-gradient(to right, #0A010A 0%, #CF0000 60%);
+  background: #0a010a;
+  background: linear-gradient(to right, #0a010a 0%, #cf0000 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h2 {
   font-size: 2.5rem;
-  background: #0A010A;
-  background: linear-gradient(to right, #0A010A 0%, #CF0000 60%);
+  background: #0a010a;
+  background: linear-gradient(to right, #0a010a 0%, #cf0000 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.submitBtn, .refresh {
+.submitBtn,
+.refresh {
   height: 2rem;
   width: 5rem;
   background-color: #5f9ea0;
@@ -44,18 +48,17 @@ h2 {
   border-radius: 2px;
   color: #fff;
   font-size: 1rem;
-  background-color: #5f9ea0;
-  color: #fff;
   font-weight: 600;
 }
 
 .submitBtn:hover {
-  background-color: rgb(130, 31, 9)
+  background-color: rgb(130, 31, 9);
 }
 
 .refresh:hover {
   background-color: rgb(130, 31, 9);
 }
+
 .score-section div {
   display: flex;
   align-items: center;
@@ -93,7 +96,7 @@ li {
 
 li:nth-child(even) {
   background-color: lightblue;
-  color:#000;
+  color: #000;
 }
 
 input {
