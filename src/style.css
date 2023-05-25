@@ -1,11 +1,62 @@
+* {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: lightblue;
+}
+
 .main {
   display: flex;
-  width: 52%;
+  width: 90%;
   justify-content: space-around;
+  margin-top: -50px;
 }
 
 h1 {
+  font-size: 4rem;
   margin-left: 15px;
+  margin-top: 0;
+  background: #cf2908;
+  background: repeating-linear-gradient(to right, #cf2908 0%, #5dcf06 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.recent-scores {
+  font-size: 2.5rem;
+  background: #0a010a;
+  background: linear-gradient(to right, #0a010a 0%, #cf0000 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 2.5rem;
+  background: #0a010a;
+  background: linear-gradient(to right, #0a010a 0%, #cf0000 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.submitBtn,
+.refresh {
+  height: 2rem;
+  width: 5rem;
+  background-color: #5f9ea0;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.submitBtn:hover {
+  background-color: rgb(130, 31, 9);
+}
+
+.refresh:hover {
+  background-color: rgb(130, 31, 9);
 }
 
 .score-section div {
@@ -24,24 +75,35 @@ h1 {
 }
 
 .score-container {
-  border: 1px solid black;
-  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 109%;
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin-top: 2px;
+  font-size: 1rem;
+  background-color: #5f9ea0;
+  color: #fff;
 }
 
 li {
   padding: 5px;
+  font-weight: 600;
 }
 
 li:nth-child(even) {
-  background-color: darkgray;
+  background-color: lightblue;
+  color: #000;
 }
 
 input {
-  height: 20px;
+  border: 2px solid black;
+  height: 30px;
+  width: 96%;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
 }
