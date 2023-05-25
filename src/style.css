@@ -37,7 +37,7 @@ h2 {
 }
 
 .submitBtn, .refresh {
-  height: 1.7rem;
+  height: 2rem;
   width: 5rem;
   background-color: #5f9ea0;
   border: 0;
@@ -50,11 +50,11 @@ h2 {
 }
 
 .submitBtn:hover {
-  background-color: rgb(37, 215, 60);
+  background-color: rgb(130, 31, 9)
 }
 
 .refresh:hover {
-  background-color: rgb(37, 215, 60);
+  background-color: rgb(130, 31, 9);
 }
 .score-section div {
   display: flex;
@@ -88,7 +88,7 @@ h2 {
 
 li {
   padding: 5px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 li:nth-child(even) {
@@ -97,5 +97,10 @@ li:nth-child(even) {
 }
 
 input {
-  height: 20px;
+  border: 2px solid black;
+  height: 30px;
+  width: 96%;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
 }
