@@ -38,11 +38,13 @@ h2 {
 .submitBtn, .refresh {
   height: 1.7rem;
   width: 5rem;
-  background-color: cadetblue;
+  background-color: #5f9ea0;
   border: 0;
   border-radius: 2px;
   color: #fff;
   font-size: 1rem;
+  background-color: #5f9ea0;
+  color: #ff
 }
 
 .submitBtn:hover {
@@ -78,6 +80,8 @@ h2 {
   justify-content: space-around;
   margin-top: 2px;
   font-size: 1rem;
+  background-color: #5f9ea0;
+  color: #fff;
 }
 
 li {
@@ -85,7 +89,8 @@ li {
 }
 
 li:nth-child(even) {
-  background-color: darkgray;
+  background-color: lightblue;
+  color:#000;
 }
 
 input {
