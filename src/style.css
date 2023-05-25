@@ -1,3 +1,8 @@
+body {
+background-color: lightblue;
+font-family: Poppins;
+}
+
 .main {
   display: flex;
   width: 52%;
@@ -5,9 +10,46 @@
 }
 
 h1 {
+  font-size: 4rem;
   margin-left: 15px;
+  background: #CF2908;
+  background: repeating-linear-gradient(to right, #CF2908 0%, #5DCF06 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+.recent-scores {
+  font-size: 2rem;
+  background: #0A010A;
+  background: linear-gradient(to right, #0A010A 0%, #CF0000 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 2rem;
+  background: #0A010A;
+  background: linear-gradient(to right, #0A010A 0%, #CF0000 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.submitBtn, .refresh {
+  height: 1.7rem;
+  width: 4rem;
+  background-color: cadetblue;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.submitBtn:hover {
+  background-color: rgb(37, 215, 60);
+}
+
+.refresh:hover {
+  background-color: rgb(37, 215, 60);
+}
 .score-section div {
   display: flex;
   align-items: center;
