@@ -65,6 +65,8 @@
 - **Responsive**
 - **GitHub WorkFlow**
 - **Grid and Flexbox**
+✅ Users can submit their scores and view the scores of other players.
+✅ It fetches data from Leaderboard API(add link) to display scores.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +95,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/hafiz1379/To-do-list.git
+  git clone https://github.com/hafiz1379/Leaderboard.git
 
 ### Install
 
@@ -110,20 +112,19 @@ Run command:
 
 To run the project, execute the following command:
 
-Open index.html using live server extension.
+```sh
+ npm startd
+```
 
 ### Run tests
 
-To run tests, run the following command:
-
-> Coming soon
 
 ### Deployment
 
 You can deploy this project using:
-
-> Coming soon
-
+```sh
+ npm run build
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
